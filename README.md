@@ -73,7 +73,7 @@ Sales vs Budget monthly comparison
 Sales distribution by customer city (map visualization)
 Interactive slicers (Year, Month, Category, Sub-Category, Customer City)
 The dashboard enables users to dynamically explore performance across different dimensions.
-(Screenshot: Final dashboard view)
+![Dashboard Overview](Images/dashboard-overview.png)
 
 Key Insights
 
