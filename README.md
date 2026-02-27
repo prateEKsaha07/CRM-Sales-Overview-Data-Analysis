@@ -14,7 +14,7 @@ Geography data
 Budget data
 The data was extracted directly from MySQL and imported into Power BI for transformation and modeling.
 
-🧮 SQL Data Extraction
+SQL Data Extraction
 Data was retrieved using structured SQL queries involving:
 INNER JOIN to combine Sales, Product, and Customer tables
 WHERE clauses for filtering
@@ -24,7 +24,7 @@ The SQL layer ensured that the dataset was structured correctly before being loa
 
 (Screenshots: SQL scripts and query output)
 
-🧹 Data Cleaning & Transformation (Power Query)
+Data Cleaning & Transformation (Power Query)
 Data preprocessing was performed using Power Query:
 Removed null and irrelevant columns
 Renamed fields for clarity
@@ -35,7 +35,7 @@ This step ensured data accuracy and analytical readiness.
 
 (Screenshots: Power Query transformation steps)
 
-🧱 Data Modeling
+Data Modeling
 A star schema model was implemented to ensure optimized performance and correct filter context behavior.
 Fact Table:
 Sales
@@ -62,7 +62,7 @@ Advanced DAX concepts such as CALCULATE, RANKX, and context modification were ap
 
 (Screenshots: Measure formulas)
 
-📊 Dashboard – Sales Overview
+Dashboard – Sales Overview
 The final dashboard includes:
 KPI card displaying Total Sales with growth indicator
 Sales trend over time
